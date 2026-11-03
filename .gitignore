@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.env
+.DS_Store
+results/*
+!results/.gitkeep
+data/raw/*
+!data/raw/.gitkeep
+
+# generated / local data
+chroma_store/
+.deepeval/
+data/*.vtt

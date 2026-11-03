@@ -1,0 +1,13 @@
+# Placeholder config; fill in when implementing.
+generator:
+  model: claude-sonnet-5-5
+  max_tokens: 1024
+  temperature: 0.0
+judge:
+  model: claude-sonnet-5-5
+  max_tokens: 512
+  temperature: 0.0
+dataset:
+  path: data/datasets/eval.jsonl
+output:
+  dir: results
